@@ -16,6 +16,16 @@ conda activate finetune
 pip install -r requirements.txt
 ```
 
+Data is formatted as follows:
+
+```json
+{
+    "id": 1,
+    "instruction": "Hi, there.",
+    "response": "Hello! How can I help you today?"
+}
+```
+
 ### Full Training
 
 ```bash
